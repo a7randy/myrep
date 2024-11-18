@@ -1,0 +1,104 @@
+body{
+    background:linear-gradient( to right ,#a8e068,#56ab2f);
+    display: flex;
+    align-items: center;
+    font-family: "Noto Kufi Arabic", serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box1{
+    height: 500px;
+    width: 450px;
+  margin: auto;
+    background-color: rgb(242, 255, 245);
+    display: flex;
+    margin: auto;
+    align-items:stretch;
+    
+    border-radius: 15px;
+}
+#login{
+
+margin-top: 30px;
+color: #85b84c;
+border: 2px #56ab2f;
+margin-left: 150px;
+
+
+}
+#userr{
+    margin-top: 160px;
+    
+    margin-left: -260px;
+    
+}
+#user{
+ background-color:rgb(242, 255, 245);
+ border-color: #85b84c;
+ border-style: solid;
+ border-radius: 10px;
+ font-size: xx-large;
+ 
+}
+#user::placeholder{
+    color: #85b84c;
+    font-family: "Noto Kufi Arabic", serif ;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 9px;
+    margin-top: auto;
+}
+#passdiv{
+    margin-top: 250px;
+    margin-left: -395px;
+   
+
+}
+#pasword{
+    background-color:rgb(242, 255, 245);
+ border-color: #85b84c;
+ border-style: solid;
+ border-radius: 10px;
+ font-size: xx-large;
+ 
+}
+#pasword::placeholder{
+    color: #85b84c;
+    font-family: "Noto Kufi Arabic", serif ;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 9px;
+    margin-top: auto;
+}
+#forgetdiv{
+    margin-top: 310px;
+    margin-right: -200px;
+    font-size: 13px;
+margin-left: -150px;
+} 
+
+#forget{
+   
+   color: #85b84c;
+   cursor: pointer;
+   
+}
+#subtimdiv{
+    margin-top: 410px;
+    margin-left: -56px;
+}
+#subtim{
+    padding:5px;
+    font-size: 20px;
+    background-color: rgb(242, 255, 245);
+    border: solid 2px;
+    border-radius: 6px;
+    color:#85b84c;
+    font-family:  "Noto Kufi Arabic", serif;
+
+}
+#subtim:hover{
+    background-color: #85b84c;
+    color: rgb(242, 255, 245);
+}
