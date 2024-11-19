@@ -1,13 +1,81 @@
-body{
-    background:linear-gradient( to right ,#a8e068,#56ab2f);
+body {
+    background: linear-gradient(to right, #a8e068, #56ab2f);
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: "Noto Kufi Arabic", serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh; /* Ensure the body takes full viewport height */
+    margin: 0; /* Reset default margin */
 }
-#box1{
+
+#box1 {
+    background-color: rgb(242, 255, 245);
+    height: 500px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#login{
+    margin-top: 30px;
+    color: #85b84c;
+    border: 2px #56ab2f;
+    grid: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    #user{
+        background-color:rgb(242, 255, 245);
+        border-color: #85b84c;
+        border-style: solid;
+        border-radius: 10px;
+        font-size: xx-large;
+       }
+       #user::placeholder{
+        color: #85b84c;
+        font-family: "Noto Kufi Arabic", serif ;
+        font-size: 25px;
+        text-align: right;
+        margin-top: auto;
+    } 
+    #forget{
+        color: #85b84c;
+        cursor: pointer;
+     }
+     #subtim{
+        padding:5px;
+        font-size: 20px;
+        background-color: rgb(242, 255, 245);
+        border: solid 2px;
+        border-radius: 6px;
+        color:#85b84c;
+        font-family:  "Noto Kufi Arabic", serif;
+    }
+    #subtim:hover{
+        background-color: #85b84c;
+        color: rgb(242, 255, 245);
+    }
+    /* here is the code for small screen view */
+    @media screen and (max-width: 500px){
+        #box1{
+            width: 400px;
+        }
+        #user{
+            height: 2em;
+            width: 300px;
+            margin-right: 1em;
+        }
+    } 
+
+    /* THE CODE BLOW ARE COMMENTED WHICH MEAN THER ARE NOT ACTIVE  */
+
+/* #box1{
     height: 500px;
     width: 450px;
   margin: auto;
@@ -15,15 +83,17 @@ body{
     display: flex;
     margin: auto;
     align-items:stretch;
-    
     border-radius: 15px;
 }
 #login{
-
 margin-top: 30px;
 color: #85b84c;
 border: 2px #56ab2f;
 margin-left: 150px;
+ flex:0;
+justify-content: center;
+align-items: center;
+text-align: center;
 
 
 }
@@ -39,22 +109,21 @@ margin-left: 150px;
  border-style: solid;
  border-radius: 10px;
  font-size: xx-large;
- 
 }
-#user::placeholder{
+ #user::placeholder{
     color: #85b84c;
     font-family: "Noto Kufi Arabic", serif ;
     font-size: 25px;
     text-align: right;
     margin-right: 9px;
     margin-top: auto;
-}
-#passdiv{
+} 
+ #passdiv{
     margin-top: 250px;
     margin-left: -395px;
    
 
-}
+} 
 #pasword{
     background-color:rgb(242, 255, 245);
  border-color: #85b84c;
@@ -79,10 +148,8 @@ margin-left: -150px;
 } 
 
 #forget{
-   
    color: #85b84c;
    cursor: pointer;
-   
 }
 #subtimdiv{
     margin-top: 410px;
@@ -102,3 +169,13 @@ margin-left: -150px;
     background-color: #85b84c;
     color: rgb(242, 255, 245);
 }
+
+@media screen and (max-width: 500px){
+    #box1{
+        width: 600px;
+    }
+    #user{
+        width: 10em;
+        
+    }
+} */
